@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.row {
+    margin: 0;
+}
+
+h2.title {
+    line-height: 2;
+    position: relative;
+}
+
+h2.title::after {
+    content: '';
+    display: block;
+    position: absolute;
+    height: 5px;
+    width: 60px;
+    top: 0;
+    background: #6aca44;
+    border-radius: 20px;
+}
+
+.navbar-light .navbar-brand {
+    color: #6aca44;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+}
+
+.productos h2.title {
+    text-align: center;
+}
+
+.productos h2.title::after {
+    content: '';
+    display: block;
+    position: absolute;
+    height: 5px;
+    width: 60px;
+    top: 0;
+    background: #6aca44;
+    border-radius: 20px;
+    left: calc(50% - 30px);
+}
+
+.productos .icon img {
+    width: 130px;
+    height: 110px;
+}
