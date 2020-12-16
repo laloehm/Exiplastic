@@ -4,6 +4,10 @@
     font-family: 'Titillium Web', sans-serif;
 }
 
+a:hover {
+    text-decoration: none;
+}
+
 .row {
     margin: 0;
 }
@@ -35,7 +39,8 @@ h2.title::after {
     text-align: center;
 }
 
-.productos h2.title::after {
+.productos h2.title::after,
+.contacto h2.title::after {
     content: '';
     display: block;
     position: absolute;
@@ -50,4 +55,46 @@ h2.title::after {
 .productos .icon img {
     width: 130px;
     height: 110px;
+}
+
+.contacto form button {
+    background: #2c6e49;
+    width: 150px;
+    border: none;
+}
+
+.contacto li {
+    list-style: none;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.contacto li a {
+    color: #2c6e49;
+}
+
+.contacto ul li:nth-child(odd) {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: 18px 0 0;
+}
+
+.contacto .redes img {
+    width: 40px;
+    display: block;
+    margin: 0 10px;
+}
+
+footer {
+    background: #0F2009;
+}
+
+footer a,
+footer p {
+    color: #fff;
+    margin: 0 15px;
+}
+
+footer a:hover {
+    color: #6aca44;
 }
